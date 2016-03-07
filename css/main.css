@@ -1,0 +1,32 @@
+html {
+  position: relative;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  font-size: 14px;
+  -webkit-user-select: none!important;
+  -moz-user-select: -moz-none!important;
+  -ms-user-select: none!important;
+  user-select: none!important;
+  background-color: #222222;
+  /* buffer for footer */
+  margin-bottom: 155px;
+  color:black;
+}
+
+.aluminum {
+  font-size: 1.7em;
+  margin: .1em;
+  outline: none;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+}
+
+.aluminum:active {
+  color: rgba(0, 102, 204, 1);
+  box-shadow: 1px 1px 10px rgba(0, 102, 204, 1);
+}
